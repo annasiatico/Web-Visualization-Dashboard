@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Weather Data Dashboard</title>
+
+        <!--Bootstrap Link-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        
+        <!--CSS Link-->
+        <link rel="stylesheet" href="Static/style.css">
+
+        
+    </head>
+    <body>
+        <!-- Navigation -->
+        <div class="navigation">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">Latitude</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Plots
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
+                    <a class="dropdown-item" href="humidity.html">Humidity</a>
+                    <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                    <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+                  </div>
+                  <li class="nav-item">
+                    <a class="nav-link" href="comparison.html">Comparison<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Data Source</a>
+                  </li>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+
+        <!-- Content -->
+        <div class="container">
+            <div class="row">
+              <div class="col-lg-7 col-md-12">
+
+                <!-- Left box  -->
+                <div class="box">
+                  <h3 class="title">Summary: Latitude vs. X</h3>
+                  <hr>
+                  <img src="Resources/Latitude_vs_Temperature.png" class="visualization" alt="Max Temperature Graph">
+                  <p>This project analyzes the weather of 500+ cities across the world of varying distance from the equator. 
+                     The objective was to build a series of scatter plots to showcase the following relationships: Temperature (F) 
+                     vs. Latitude, Humidity (%) vs. Latitude, Cloudiness (%) vs. Latitude, and Wind Speed (mph) vs. Latitude.
+                  </p>
+                  <p>This site provides the source data and visualizations created using Pandas and Matplotlib with observable 
+                    trends.</p>
+                </div>
+              </div>
+              <div class="col-lg-5 col-md-12">
+
+                <!-- Right Box -->
+                <div class="box">
+                  <h5 class="title">Visualizations</h5>
+                  <hr>
+                  <div class="container">
+                    <div class="row" style="padding-bottom: 30px;">
+                      <div class="col-6">
+                        <a href="max_temp.html">
+                          <img class="rightbox" src="Resources/Latitude_vs_Temperature.png" alt="Max Temperature Image">
+                        </a>
+                      </div>
+                      <div class="col-6">
+                        <a href="humidity.html">
+                          <img class="rightbox" src="Resources/Latitude_vs_Humidity.png" alt="Humidity Graph">
+                        </a>
+                      </div>
+                    </div>
+        
+                    <div class="row" style="padding-bottom: 30px;">
+                      <div class="col-6">
+                        <a href="cloudiness.html">
+                          <img class="rightbox" src="Resources/Latitude_vs_Cloudiness.png" alt="Cloudiness Graph">
+                        </a>
+                      </div>
+                      <div class="col-6">
+                        <a href="wind_speed.html">
+                          <img class="rightbox" src="Resources/Latitude_vs_WindSpeed.png" alt="Wind Speed Graph">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+      <!-- Footer -->
+      <footer>
+        <div class="footer">Copyright &copy; Ann Asiatico 2020</div>
+      </footer>
+
+      <!--Javascript JQuery Links-->
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    </body>
+
+</html>
