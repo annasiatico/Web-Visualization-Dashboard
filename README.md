@@ -14,5 +14,5 @@ Bootstrap
 
 ## Website
 
-[Web Visualization Dashboard](https://www.youtube.com/watch?v=AIu3b0WhMgs&feature=youtu.be)
+[Web Visualization Dashboard](https://annasiatico.github.io/Web-Visualization-Dashboard/)
 
