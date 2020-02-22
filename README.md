@@ -8,9 +8,9 @@ This site provides the source data and visualizations created using Pandas and M
 
 ## Methods
 
-HTML
-CSS
-Bootstrap
+* HTML
+* CSS
+* Bootstrap
 
 ## Website
 
