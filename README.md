@@ -8,11 +8,11 @@ This site provides the source data and visualizations created using Pandas and M
 
 ## Methods
 
-HTML
-CSS
-Bootstrap
+* HTML
+* CSS
+* Bootstrap
 
 ## Website
 
-[Web Visualization Dashboard](https://www.youtube.com/watch?v=AIu3b0WhMgs&feature=youtu.be)
+[Web Visualization Dashboard](https://annasiatico.github.io/Web-Visualization-Dashboard/)
 
